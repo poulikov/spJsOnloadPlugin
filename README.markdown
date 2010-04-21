@@ -2,7 +2,7 @@
 
 Example:
 
-    use_helper("JsOnload");
+    <?php use_helper("JsOnload"); ?>
 
     start_js_onload();
     alert("first");
@@ -10,9 +10,9 @@ Example:
     
     // ...
 
-    start_js_onload();
+    <?php start_js_onload(); ?>
     alert("second");
-    end_js_onload();
+    <?php end_js_onload(); ?>
 
 in response
 
