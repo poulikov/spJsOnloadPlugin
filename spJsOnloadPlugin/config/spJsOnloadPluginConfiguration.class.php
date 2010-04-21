@@ -1,6 +1,6 @@
 <?php
 
-class spJsonloadPluginConfiguration extends sfPluginConfiguration
+class spJsOnloadPluginConfiguration extends sfPluginConfiguration
 {
   public function initialize()
   {
